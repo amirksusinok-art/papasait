@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fdebb2"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#8f6f15"/>
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#13285c"/>
+      <stop offset="100%" stop-color="#070f26"/>
+    </linearGradient>
+  </defs>
+  <!-- Box Base -->
+  <rect x="10" y="26" width="44" height="30" rx="4" fill="url(#boxGrad)" stroke="url(#goldGrad)" stroke-width="2"/>
+  <!-- Box Lid -->
+  <rect x="7" y="19" width="50" height="9" rx="3" fill="url(#boxGrad)" stroke="url(#goldGrad)" stroke-width="2"/>
+  <!-- Vertical Gold Ribbon -->
+  <rect x="29" y="19" width="6" height="37" fill="url(#goldGrad)"/>
+  <!-- Horizontal Gold Ribbon on Lid -->
+  <rect x="7" y="22" width="50" height="4" fill="url(#goldGrad)"/>
+  <!-- Bow -->
+  <path d="M32 19 C24 8, 14 16, 28 19 Z" fill="url(#goldGrad)"/>
+  <path d="M32 19 C40 8, 50 16, 36 19 Z" fill="url(#goldGrad)"/>
+  <circle cx="32" cy="19" r="3" fill="#fffdf5"/>
+</svg>
